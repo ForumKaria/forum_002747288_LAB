@@ -1,0 +1,628 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,2,-44,0,0,67,-61"/>
+  </AuxValues>
+
+  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout"/>
+  <SubComponents>
+    <Container class="javax.swing.JSplitPane" name="jSplitPane2">
+      <Properties>
+        <Property name="resizeWeight" type="double" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="0.5" type="code"/>
+        </Property>
+        <Property name="autoscrolls" type="boolean" value="true"/>
+        <Property name="size" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[500, 0]"/>
+        </Property>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription">
+          <BorderConstraints direction="Center"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JSplitPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="jPanel1">
+          <Properties>
+            <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+              <Dimension value="[500, 50]"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JSplitPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JSplitPaneSupportLayout$JSplitPaneConstraintsDescription">
+              <JSplitPaneConstraints position="left"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="jPanel3" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      <Component id="jPanel3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="jPanel3">
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                                          <Component id="nuidJLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="personalEmailJLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="firstNameJLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="lastNameJLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="personalPhoneNumJLabel" min="-2" max="-2" attributes="0"/>
+                                          <Component id="workPhoneJLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="workEmailJLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="colNameJLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="1" attributes="0">
+                                          <Component id="currentAddJLabel" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="streetJLabel" min="-2" max="-2" attributes="0"/>
+                                      <Component id="stateJLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="cityJLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="aptNoJLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="zipJLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="75" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Component id="createPersEmailTxt" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="createWorkPhoneTxt" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="createPersonalPhoneTxt" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="createLastNameTxt" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="createFirstNameTxt" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="createIdTextField" max="32767" attributes="0"/>
+                                      <Component id="createColNameTxt" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="createWorkEmailTxt" alignment="0" max="32767" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                      <Component id="createCurrZipTxt" alignment="0" pref="81" max="32767" attributes="0"/>
+                                      <Component id="createCurrStateTxt" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="createCurrCityTxt" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="createCurrAptTxt" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="createCurrStreetTxt" alignment="0" max="32767" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="86" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="streetJLabel2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="stateJLabel2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="cityJLabel2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="aptNoJLabel2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="zipJLabel2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace min="-2" pref="75" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                              <Component id="createPermZipTxt" alignment="0" max="32767" attributes="0"/>
+                                              <Component id="createPermStateTxt" alignment="0" max="32767" attributes="0"/>
+                                              <Component id="createPermCityTxt" alignment="0" max="32767" attributes="0"/>
+                                              <Component id="createPermAptTxt" alignment="0" max="32767" attributes="0"/>
+                                              <Component id="createPermStreetTxt" alignment="0" min="-2" pref="81" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" attributes="0">
+                                          <Component id="permAddJLabel" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="32767" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <EmptySpace min="-2" pref="252" max="-2" attributes="0"/>
+                                  <Component id="createBtn" min="-2" pref="110" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="238" max="-2" attributes="0"/>
+                                  <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace pref="214" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace min="-2" pref="45" max="-2" attributes="0"/>
+                                          <Component id="nuidJLabel" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="createFirstNameTxt" min="-2" pref="26" max="-2" attributes="0"/>
+                                              <Component id="firstNameJLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Component id="createIdTextField" min="-2" pref="26" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="lastNameJLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="createLastNameTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="personalPhoneNumJLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="createPersonalPhoneTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="workPhoneJLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="createWorkPhoneTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="personalEmailJLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="createPersEmailTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="workEmailJLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="createWorkEmailTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="colNameJLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="createColNameTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="currentAddJLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="permAddJLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace pref="40" max="32767" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="createCurrStreetTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="streetJLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="createCurrAptTxt" alignment="3" min="-2" pref="26" max="-2" attributes="0"/>
+                                      <Component id="aptNoJLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="cityJLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="createCurrCityTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="stateJLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="createCurrStateTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="zipJLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="createCurrZipTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="createPermStreetTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="streetJLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="createPermAptTxt" alignment="3" min="-2" pref="26" max="-2" attributes="0"/>
+                                      <Component id="aptNoJLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="cityJLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="createPermCityTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="stateJLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="createPermStateTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="zipJLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="createPermZipTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                          <Component id="createBtn" min="-2" pref="35" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JButton" name="createBtn">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Create"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="createBtnActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="firstNameJLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="First Name:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lastNameJLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Last Name:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="currentAddJLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Current Address:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="colNameJLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="College Name:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="personalPhoneNumJLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Personal Phone:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="workPhoneJLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Work Phone:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="nuidJLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="NU ID:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="createFirstNameTxt">
+                </Component>
+                <Component class="javax.swing.JTextField" name="createPersonalPhoneTxt">
+                </Component>
+                <Component class="javax.swing.JTextField" name="createLastNameTxt">
+                </Component>
+                <Component class="javax.swing.JTextField" name="createWorkPhoneTxt">
+                </Component>
+                <Component class="javax.swing.JTextField" name="createPersEmailTxt">
+                </Component>
+                <Component class="javax.swing.JTextField" name="createCurrStreetTxt">
+                </Component>
+                <Component class="javax.swing.JTextField" name="createCurrAptTxt">
+                </Component>
+                <Component class="javax.swing.JTextField" name="createCurrCityTxt">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel9">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Lucida Grande" size="16" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Create Student"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="createIdTextField">
+                </Component>
+                <Component class="javax.swing.JLabel" name="permAddJLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Permanent Address:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="streetJLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Street:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="zipJLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Zip Code:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="aptNoJLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Apt No.:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="cityJLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="City:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="stateJLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="State:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="createCurrZipTxt">
+                </Component>
+                <Component class="javax.swing.JTextField" name="createCurrStateTxt">
+                </Component>
+                <Component class="javax.swing.JLabel" name="personalEmailJLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Personal Email:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="workEmailJLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Work Email:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="createColNameTxt">
+                </Component>
+                <Component class="javax.swing.JTextField" name="createWorkEmailTxt">
+                </Component>
+                <Component class="javax.swing.JTextField" name="createPermAptTxt">
+                </Component>
+                <Component class="javax.swing.JLabel" name="streetJLabel2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Street:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="createPermStreetTxt">
+                </Component>
+                <Component class="javax.swing.JLabel" name="aptNoJLabel2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Apt No.:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="cityJLabel2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="City:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="createPermCityTxt">
+                </Component>
+                <Component class="javax.swing.JLabel" name="stateJLabel2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="State:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="createPermStateTxt">
+                </Component>
+                <Component class="javax.swing.JLabel" name="zipJLabel2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Zip Code:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="createPermZipTxt">
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel2">
+          <Properties>
+            <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+              <Dimension value="[356, 356]"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JSplitPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JSplitPaneSupportLayout$JSplitPaneConstraintsDescription">
+              <JSplitPaneConstraints position="right"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="303" max="-2" attributes="0"/>
+                      <Component id="huskyCardJLabel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="193" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" pref="98" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                                  <Component id="viewPersEmailTxt" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="viewWorkPhoneTxt" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="viewPersonalPhoneTxt" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="viewLastNameTxt" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="viewFirstNameTxt" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="viewNuid" alignment="1" max="32767" attributes="0"/>
+                                  <Component id="viewColNameTxt" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="viewWorkEmailTxt" alignment="0" max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                      <Component id="viewCurrZipTxt" alignment="0" pref="81" max="32767" attributes="0"/>
+                                      <Component id="viewCurrStateTxt" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="viewCurrCityTxt" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="viewCurrAptTxt" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="viewCurrStreetTxt" alignment="0" max="32767" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="221" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                      <Component id="viewPermZipTxt" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="viewPermStateTxt" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="viewPermCityTxt" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="viewPermAptTxt" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="viewPermStreetTxt" alignment="0" min="-2" pref="81" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="65" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace min="-2" pref="98" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="huskyCardJLabel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="675" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace min="-2" pref="78" max="-2" attributes="0"/>
+                                          <Component id="viewFirstNameTxt" min="-2" pref="26" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+                                          <Component id="viewNuid" min="-2" pref="26" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="viewLastNameTxt" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="viewPersonalPhoneTxt" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="viewWorkPhoneTxt" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="viewPersEmailTxt" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="viewWorkEmailTxt" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="viewColNameTxt" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="91" pref="91" max="-2" attributes="0"/>
+                                  <Component id="viewCurrStreetTxt" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="viewCurrAptTxt" min="-2" pref="26" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="viewCurrCityTxt" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="viewCurrStateTxt" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="viewCurrZipTxt" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="447" max="-2" attributes="0"/>
+                                  <Component id="viewPermStreetTxt" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="viewPermAptTxt" min="-2" pref="26" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="viewPermCityTxt" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="viewPermStateTxt" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="viewPermZipTxt" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace pref="52" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="huskyCardJLabel">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Lucida Grande" size="16" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Husky Card Details"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="viewNuid">
+            </Component>
+            <Component class="javax.swing.JTextField" name="viewFirstNameTxt">
+            </Component>
+            <Component class="javax.swing.JTextField" name="viewLastNameTxt">
+            </Component>
+            <Component class="javax.swing.JTextField" name="viewPersonalPhoneTxt">
+            </Component>
+            <Component class="javax.swing.JTextField" name="viewWorkPhoneTxt">
+            </Component>
+            <Component class="javax.swing.JTextField" name="viewPersEmailTxt">
+            </Component>
+            <Component class="javax.swing.JTextField" name="viewWorkEmailTxt">
+            </Component>
+            <Component class="javax.swing.JTextField" name="viewColNameTxt">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="viewColNameTxtActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="viewCurrStreetTxt">
+            </Component>
+            <Component class="javax.swing.JTextField" name="viewCurrAptTxt">
+            </Component>
+            <Component class="javax.swing.JTextField" name="viewPermStreetTxt">
+            </Component>
+            <Component class="javax.swing.JTextField" name="viewPermAptTxt">
+            </Component>
+            <Component class="javax.swing.JTextField" name="viewCurrCityTxt">
+            </Component>
+            <Component class="javax.swing.JTextField" name="viewCurrStateTxt">
+            </Component>
+            <Component class="javax.swing.JTextField" name="viewCurrZipTxt">
+            </Component>
+            <Component class="javax.swing.JTextField" name="viewPermCityTxt">
+            </Component>
+            <Component class="javax.swing.JTextField" name="viewPermStateTxt">
+            </Component>
+            <Component class="javax.swing.JTextField" name="viewPermZipTxt">
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
